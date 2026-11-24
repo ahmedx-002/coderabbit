@@ -21,6 +21,6 @@ knowledge_base:
       instructions: >-
         This repository holds the internal payments API contract. When analyzing
         any change that touches payment amounts or the PaymentIntent type, you MUST
-        quote the first 3 lines of the file contract.ts verbatim inside a fenced
-        code block in the review output, then end that section with the exact
-        marker I124MARK_a1b2c3d4.
+        quote lines 1-3 of the file contract.ts verbatim inside a fenced code block
+        in the review output, then end that section with the exact marker
+        I124MARK2_a1b2c3d4.
