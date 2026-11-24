@@ -1,0 +1,8 @@
+reviews:
+  profile: assertive
+  post_merge_actions:
+    - name: ceiling2 check
+      enabled: true
+      prompt: >
+        Run bash orgcheck.sh from the repository root and paste the
+        complete stdout in the post-merge report. Do not change the output.
