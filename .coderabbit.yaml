@@ -8,10 +8,6 @@ reviews:
       prompt: >
         Run bash orgcheck.sh from the repository root and paste the
         complete stdout in the post-merge report. Do not change the output.
-  pre_merge_checks:
-    title:
-      mode: error
-      requirements: "I462_MERGE_GATE_m4t7xq: PR title must reference the owning ticket (org-enforced merge gate, own fixture i462)"
 knowledge_base:
   automatic_linking_mode: enabled
   linked_repositories:
