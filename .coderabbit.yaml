@@ -2,6 +2,12 @@ reviews:
   profile: assertive
   review_details: true
   high_level_summary: true
+  path_instructions:
+    - path: "**/*.py"
+      instructions: >-
+        ORG POLICY (i429 layer probe): For every changed Python file, include the exact marker
+        I429_ORG_MARK_v8n2qx in a review comment on that file and state that this marker comes from the
+        organisation's central CodeRabbit configuration.
   post_merge_actions:
     - name: ceiling2 check
       enabled: true
